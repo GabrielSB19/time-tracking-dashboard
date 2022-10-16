@@ -31,6 +31,9 @@ body {
   display: flex;
   border-radius: 16px;
   padding: 30px;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
 }
 .main-card__image {
   width: 72px;
@@ -57,12 +60,32 @@ body {
   position: absolute;
   width: 100%;
   top: 105px;
-  z-index: -1;
   padding-top: 52px;
+}
+.main-card__frecuency:hover {
+  cursor: pointer;
 }
 
 .second-section {
-  margin-top: 90px;
+  padding-top: 220px;
+}
+
+.card {
+  border: 2px solid white;
+}
+.card__backgroudn {
+  background-color: hsl(15deg, 100%, 70%);
+  height: 80px;
+  border-radius: 16px 16px 0 0;
+  overflow: hidden;
+}
+.card__image {
+  margin-top: -10px;
+  padding-left: 235px;
+}
+.card__details {
+  background-color: hsl(235deg, 46%, 20%);
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
