@@ -100,7 +100,7 @@ body {
   bottom: -85px;
 }
 .card__details:hover {
-  background-color: hsl(264deg, 64%, 52%);
+  background-color: hsl(235, 45%, 61%);
   cursor: pointer;
   transition: 0.5s;
 }
@@ -181,6 +181,11 @@ body {
   .card__hour {
     font-size: 3em;
   }
+}
+
+.main-card__frecuency--active{
+  color: white;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */

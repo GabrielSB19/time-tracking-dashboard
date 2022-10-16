@@ -1,0 +1,26 @@
+[
+    {
+        "color": "hsl(15, 100%, 70%)",
+        "icon": "./images/icon-work.svg"
+    },
+    {
+        "color": "hsl(195, 74%, 62%)",
+        "icon": "./images/icon-play.svg"
+    },
+    {
+        "color": "hsl(348, 100%, 68%)",
+        "icon": "./images/icon-study.svg"
+    },
+    {
+        "color": "hsl(145, 58%, 55%)",
+        "icon": "./images/icon-exercise.svg"
+    },
+    {
+        "color": "hsl(264, 64%, 52%)",
+        "icon": "./images/icon-social.svg"
+    },
+    {
+        "color": "hsl(43, 84%, 65%)",
+        "icon": "./images/icon-self-care.svg"
+    }
+]
