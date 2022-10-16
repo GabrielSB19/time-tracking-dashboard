@@ -71,7 +71,8 @@ body {
 }
 
 .card {
-  border: 2px solid white;
+  position: relative;
+  margin-bottom: 105px;
 }
 .card__backgroudn {
   background-color: hsl(15deg, 100%, 70%);
@@ -86,6 +87,34 @@ body {
 .card__details {
   background-color: hsl(235deg, 46%, 20%);
   display: flex;
+  flex-direction: column;
+  height: 122px;
+  justify-content: space-between;
+  padding: 25px;
+  border-radius: 16px;
+  position: absolute;
+  width: 100%;
+  bottom: -85px;
+}
+.card__details:hover {
+  background-color: hsl(264deg, 64%, 52%);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.card__activity, .card__time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card__title {
+  font-weight: 500;
+  color: white;
+  font-size: 1.2em;
+}
+.card__hour {
+  font-size: 2em;
+  font-weight: 300;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

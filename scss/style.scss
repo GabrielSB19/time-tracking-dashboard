@@ -60,7 +60,8 @@
 }
 
 .card{
-    border: 2px solid white;
+    position: relative;
+    margin-bottom: 105px;
     &__backgroudn{
         background-color: variable.$LightOrange;
         height: 80px;
@@ -74,5 +75,33 @@
     &__details{
         background-color: variable.$DarkBlue;
         display: flex;
+        flex-direction: column;
+        height: 122px;
+        justify-content: space-between;
+        padding: 25px;
+        border-radius: 16px;
+        position: absolute;
+        width: 100%;
+        bottom: -85px;
+        &:hover{
+            background-color: variable.$Violet;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+    }
+    &__activity, &__time{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__title{
+        font-weight: 500;
+        color: white;
+        font-size: 1.2em;
+    }
+    &__hour{
+        font-size: 2em;
+        font-weight: 300;
+        color: white;
     }
 }
