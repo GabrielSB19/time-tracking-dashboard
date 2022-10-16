@@ -114,6 +114,7 @@
     .first-section{
         width: 290px;
         height: 564px;
+        padding-top: 24px;
     }
     .second-section{
         height: 564px;
@@ -125,7 +126,7 @@
     }
     .main-card{
         &__user{
-            height: 370px;
+            height: 330px;
             flex-direction: column;
         }
         &__user-datails{
@@ -141,10 +142,32 @@
             font-size: 2.4em;
         }
         &__dates{
-            margin-top: 250px;
+            margin-top: 222px;
             height: 200px;
             flex-direction: column;
             padding: 40px 32px 18px;
+        }
+    }
+
+    .card{
+        width: 240px;
+        height: 244px;
+        margin-bottom: 25px;
+        &__image{
+            padding-left: 140px;
+        }
+        &__details{
+            height: 200px;
+            bottom: 10px;
+        }
+        &__time{
+            height: 300px;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 40px 0 0;
+        }
+        &__hour{
+            font-size: 3em;
         }
     }
 }
