@@ -23,6 +23,9 @@ body {
 .main-container {
   width: 328px;
   margin: 77px auto;
+}
+
+.first-section {
   position: relative;
 }
 
@@ -31,9 +34,9 @@ body {
   display: flex;
   border-radius: 16px;
   padding: 30px;
-  position: absolute;
   z-index: 1;
   width: 100%;
+  position: relative;
 }
 .main-card__image {
   width: 72px;
@@ -115,6 +118,47 @@ body {
   font-size: 2em;
   font-weight: 300;
   color: white;
+}
+
+@media (min-width: 1200px) {
+  .main-container {
+    width: 1150px;
+    display: flex;
+  }
+  .first-section {
+    width: 290px;
+    height: 564px;
+  }
+  .second-section {
+    height: 564px;
+    width: 860px;
+    padding-top: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 24px;
+  }
+  .main-card__user {
+    height: 370px;
+    flex-direction: column;
+  }
+  .main-card__user-datails {
+    margin-top: 45px;
+  }
+  .main-card__image {
+    width: 85px;
+  }
+  .main-card__title {
+    font-size: 1em;
+  }
+  .main-card__name {
+    font-size: 2.4em;
+  }
+  .main-card__dates {
+    margin-top: 250px;
+    height: 200px;
+    flex-direction: column;
+    padding: 40px 32px 18px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

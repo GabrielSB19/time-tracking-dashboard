@@ -5,10 +5,10 @@
 .main-container{
     width: 328px;
     margin: 77px auto;
-    position: relative;
 }
 
 .first-section{
+    position: relative;
 }
 
 .main-card{
@@ -17,9 +17,9 @@
         display: flex;
         border-radius: 16px;
         padding: 30px;
-        position: absolute;
         z-index: 1;
         width: 100%;
+        position: relative;
     }
     &__image{
         width: 72px;
@@ -103,5 +103,48 @@
         font-size: 2em;
         font-weight: 300;
         color: white;
+    }
+}
+
+@media (min-width: 1200px){
+    .main-container{
+        width: 1150px;
+        display: flex;
+    }
+    .first-section{
+        width: 290px;
+        height: 564px;
+    }
+    .second-section{
+        height: 564px;
+        width: 860px;
+        padding-top: 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 24px;
+    }
+    .main-card{
+        &__user{
+            height: 370px;
+            flex-direction: column;
+        }
+        &__user-datails{
+            margin-top: 45px;
+        }
+        &__image{
+            width: 85px;
+        }
+        &__title{
+            font-size: 1em;
+        }
+        &__name{
+            font-size: 2.4em;
+        }
+        &__dates{
+            margin-top: 250px;
+            height: 200px;
+            flex-direction: column;
+            padding: 40px 32px 18px;
+        }
     }
 }
