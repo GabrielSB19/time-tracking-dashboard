@@ -1,1 +1,53 @@
 @use 'initial';
+@use 'variable';
+
+
+.main-container{
+    width: 328px;
+    margin: 77px auto;
+    position: relative;
+}
+
+.first-section{
+}
+
+.main-card{
+    &__user{
+        background-color: variable.$Blue;
+        display: flex;
+        border-radius: 16px;
+        padding: 30px;
+    }
+    &__image{
+        width: 72px;
+        margin-right: 10px;
+        border: 3px solid white;
+        border-radius: 50%;
+    }
+    &__title{
+        font-size: 0.9em;
+        margin: 10px 0 4px;
+    }
+    &__name{
+        font-size: 1.5em;
+        font-weight: 300;
+        color: white;
+    }
+    &__dates{
+        background-color: variable.$DarkBlue;
+        border-radius: 16px;
+        display: flex;
+        justify-content: space-around;
+        height: 100px;
+        font-size: 1.2em;
+        position: absolute;
+        width: 100%;
+        top: 105px;
+        z-index: -1;
+        padding-top: 52px;
+    }
+}
+
+.second-section{
+    margin-top: 90px;
+}

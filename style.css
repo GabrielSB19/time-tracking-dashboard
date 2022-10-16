@@ -1,3 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: hsl(226deg, 43%, 10%);
+  color: hsl(236deg, 100%, 87%);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -5,6 +18,51 @@
 
 .attribution a {
   color: hsl(228deg, 45%, 44%);
+}
+
+.main-container {
+  width: 328px;
+  margin: 77px auto;
+  position: relative;
+}
+
+.main-card__user {
+  background-color: hsl(246deg, 80%, 60%);
+  display: flex;
+  border-radius: 16px;
+  padding: 30px;
+}
+.main-card__image {
+  width: 72px;
+  margin-right: 10px;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+.main-card__title {
+  font-size: 0.9em;
+  margin: 10px 0 4px;
+}
+.main-card__name {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: white;
+}
+.main-card__dates {
+  background-color: hsl(235deg, 46%, 20%);
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  font-size: 1.2em;
+  position: absolute;
+  width: 100%;
+  top: 105px;
+  z-index: -1;
+  padding-top: 52px;
+}
+
+.second-section {
+  margin-top: 90px;
 }
 
 /*# sourceMappingURL=style.css.map */
